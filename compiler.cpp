@@ -7,7 +7,7 @@
 #include <errno.h>
 #include <sys/stat.h>
 
-struct ByteCodeBuffer
+struct AsmContext
 {
     char* data;
     int size;
@@ -27,20 +27,20 @@ enum CommandsId
 
 
 enum CommandsId GetCommandId (const char* name);
-void ByteCodeBufferInit (ByteCodeBuffer* buf, int max_size);
-void ByteCodeBufferFree (ByteCodeBuffer* buf);
-int Assembly(const char* asm_source_name, ByteCodeBuffer* buf, const char* byte_code_name);
+void ByteCodeBufferInit (AsmContext* buf, int max_size);
+void ByteCodeBufferFree (AsmContext* buf);
+int Assembly(const char* asm_source_name, AsmContext* buf, const char* byte_code_name);
 
 
 int main(int argc, char *argv[])
 {
-    struct ByteCodeBuffer buf_1 = {};
+    struct AsmContext ctx = {};
 
-    ByteCodeBufferInit (&buf_1, 1000);
+    ByteCodeBufferInit (&ctx, 1024);
 
-    Assembly("asm_code_v.1", &buf_1, "testing");
+    Assembly("asm_code_v.1", &ctx, "testing");
 
-    ByteCodeBufferFree (&buf_1);
+    ByteCodeBufferFree (&ctx);
 
     return 0;
 }
@@ -56,14 +56,14 @@ enum CommandsId GetCommandId (const char* name)
     return CMD_UNKNOWN;
 }
 
-void ByteCodeBufferInit (ByteCodeBuffer* buf, int max_size)
+void ByteCodeBufferInit (AsmContext* buf, int max_size)
 {
     buf->data = (char*)calloc(max_size, sizeof(char));
     buf->size = 0;
     buf->capacity = max_size;
 }
 
-void ByteCodeBufferFree (ByteCodeBuffer* buf)
+void ByteCodeBufferFree (AsmContext* buf)
 {
     free(buf->data);
     buf->data = NULL;
@@ -71,7 +71,7 @@ void ByteCodeBufferFree (ByteCodeBuffer* buf)
     buf->capacity = 0;
 }
 
-int Assembly(const char* asm_source_name, ByteCodeBuffer* buf, const char* byte_code_name)
+int Assembly(const char* asm_source_name, AsmContext* buf, const char* byte_code_name)
 {
     FILE* asm_source = fopen(asm_source_name, "r");
     if (asm_source == NULL)
@@ -95,7 +95,7 @@ int Assembly(const char* asm_source_name, ByteCodeBuffer* buf, const char* byte_
     {
         line_counter++;
         char cmd_name[32] = "";
-        double arg = 0;
+        double arg = 0.0;
 
         int n_args = sscanf(line_buffer, "%31s %lg", cmd_name, &arg);
 
@@ -147,8 +147,7 @@ int Assembly(const char* asm_source_name, ByteCodeBuffer* buf, const char* byte_
         }
     }
 
-    for (int i = 0; i < buf->size; i++)
-        fprintf(byte_code, "%d", buf->data[i]);
+    fwrite(buf->data, sizeof(char), buf->size, byte_code);
 
     fclose (asm_source);
     fclose (byte_code);
