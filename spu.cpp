@@ -1,72 +1,86 @@
 #include <stdio.h>
+#include "stack.h"
+
+void Add(stack_t* stk);
+void Sub(stack_t* stk);
+void Div(stack_t* stk);
+void Out(stack_t* stk);
 
 int main()
 {
     int cmd = 0;
     int arg = 0;
+    stack_t stk1 = {};
+    STACK_INIT(stk1, 5);
     FILE* byte_code = fopen("testing","r");
-    while (fscanf(byte_code, "%d %d", &cmd, &arg) != EOF)
+    while (fscanf(byte_code, "%d", &cmd) != EOF)
     {
         switch (cmd)
         {
             case (0):
                 return 0;
-                break;
 
             case (1):
+                fscanf(byte_code, "%d", &arg);
                 StackPush(&stk1, arg);
+                StackDump("log_stack", 0, &stk1);
                 break;
 
             case(2):
-                Add();
+                Add(&stk1);
+                StackDump("log_stack", 0, &stk1);
                 break;
 
             case(3):
-                Sub();
+                Sub(&stk1);
+                StackDump("log_stack", 0, &stk1);
                 break;
 
             case(4):
-                Div();
+                Div(&stk1);
+                StackDump("log_stack", 0, &stk1);
                 break;
 
             case(5):
-                Out();
+                Out(&stk1);
+                StackDump("log_stack", 0, &stk1);
                 break;
         }
+        //printf("After commands: %d\n", stk1.size);
     }
 }
 
-void Add(void)
+void Add(stack_t* stk)
 {
-    int val_1 = 0;
-    int val_2 = 0;
-    StackPop(&stk1, &val_1);
-    StackPop(&stk1, &val_2);
-    StackPush(&stk1, val_1 + val_2);
+    double val_1 = 0;
+    double val_2 = 0;
+    StackPop(stk, &val_1);
+    StackPop(stk, &val_2);
+    StackPush(stk, val_1 + val_2);
 }
 
-void Sub(void)
+void Sub(stack_t* stk)
 {
-    int val_1 = 0;
-    int val_2 = 0;
-    StackPop(&stk1, &val_1);
-    StackPop(&stk1, &val_2);
-    StackPush(&stk1, val_2 - val_1);
+    double val_1 = 0;
+    double val_2 = 0;
+    StackPop(stk, &val_1);
+    StackPop(stk, &val_2);
+    StackPush(stk, val_2 - val_1);
 }
 
-void Div(void)
+void Div(stack_t* stk)
 {
-    int val_1 = 0;
-    int val_2 = 0;
-    StackPop(&stk1, &val_1);
-    Stackpop(&stk1, &val_2);
+    double val_1 = 0;
+    double val_2 = 0;
+    StackPop(stk, &val_1);
+    StackPop(stk, &val_2);
     if (val_1 != 0)
-        StackPush(&stk1, val_2/val_1);
+        StackPush(stk, val_2/val_1);
 }
 
-void Out(void)
+void Out(stack_t* stk)
 {
-    int val_1 = 0;
-    StackPop(&stk1, &val_1);
-    printf("%d",val_1);
+    double val_1 = 0;
+    StackPop(stk, &val_1);
+    printf("%lg",val_1);
 }

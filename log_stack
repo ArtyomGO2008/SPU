@@ -1,0 +1,1348 @@
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:35:30] ===
+Stack_t "(null)" [0061FEF4] created by [(null)] at [(null) : 0]
+ERROR CODE: 0x0000000000000006
+[ERROR] Data pointer is NULL!
+[ERROR] Capacity is negative or zero!
+{
+	capacity = 0
+	size     = 0
+	data[00000000]
+	{
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:37:59] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:37:59] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:37:59] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:37:59] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:40:30] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[007119E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:40:30] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[007119E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:40:30] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[007119E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:40:30] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[007119E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:43:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006E19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:43:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006E19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:43:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006E19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:43:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006E19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:56:17] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001F19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:56:17] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001F19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:56:17] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001F19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [13-10-2026 22:56:17] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001F19E8]
+	{
+		*[0] = 2.97079e-313
+		*[1] = 2.97079e-313
+		*[2] = 2.97079e-313
+		*[3] = 2.97079e-313
+		*[4] = 2.97079e-313
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:52:07] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D919E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:52:07] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D919E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:52:07] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D919E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:52:07] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D919E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:54:37] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006A19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:54:37] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006A19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:54:37] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006A19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 01:54:37] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[006A19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:05:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:05:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:05:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:05:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:15:43] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00DE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:15:43] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00DE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:15:43] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00DE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:15:43] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00DE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:26:39] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00E319E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:26:39] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00E319E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:26:39] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00E319E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:26:39] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00E319E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:33:44] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D619E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:33:44] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D619E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:33:44] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D619E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:33:44] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D619E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:36:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00CE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:36:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00CE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:36:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00CE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:36:40] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00CE19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:39:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:39:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:39:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:39:22] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[00D419E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:40:20] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:40:20] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:40:20] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:40:20] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 15]
+ERROR CODE: 0x0000000000000008
+[ERROR] Size is negative!
+{
+	capacity = 5
+	size     = -1
+	data[001E19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[007219E8]
+	{
+		*[0] = 20
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[007219E8]
+	{
+		*[0] = 20
+		*[1] = 30
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[007219E8]
+	{
+		*[0] = 6707.52
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[007219E8]
+	{
+		*[0] = 6707.52
+		*[1] = 8
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 3
+	data[007219E8]
+	{
+		*[0] = 6707.52
+		*[1] = 8
+		*[2] = 3
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[007219E8]
+	{
+		*[0] = 6707.52
+		*[1] = -6674.52
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[007219E8]
+	{
+		*[0] = -0.999551
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:51:21] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 0
+	data[007219E8]
+	{
+		*[0] = -0.999551
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[006A19E8]
+	{
+		*[0] = 20
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[006A19E8]
+	{
+		*[0] = 20
+		*[1] = 30
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[006A19E8]
+	{
+		*[0] = 50
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[006A19E8]
+	{
+		*[0] = 50
+		*[1] = 8
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 3
+	data[006A19E8]
+	{
+		*[0] = 50
+		*[1] = 8
+		*[2] = 3
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 2
+	data[006A19E8]
+	{
+		*[0] = 50
+		*[1] = 5
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 1
+	data[006A19E8]
+	{
+		*[0] = 10
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
+=== STACK DUMP [20-10-2026 02:57:38] ===
+Stack_t "stk1" [0061FEF4] created by [main] at [spu.cpp : 14]
+ERROR CODE: 0x0000000000000000
+{
+	capacity = 5
+	size     = 0
+	data[006A19E8]
+	{
+		 [0] = 6677.52 (POISON)
+		 [1] = 6677.52 (POISON)
+		 [2] = 6677.52 (POISON)
+		 [3] = 6677.52 (POISON)
+		 [4] = 6677.52 (POISON)
+	}
+}
+========================================
+
