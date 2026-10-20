@@ -1,3 +1,4 @@
+#include "VirtualMachine.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,30 +7,6 @@
 #include <ctype.h>
 #include <errno.h>
 #include <sys/stat.h>
-
-struct AsmContext
-{
-    char* data;
-    int size;
-    int capacity;
-};
-
-enum CommandsId
-{
-    CMD_UNKNOWN = -1,
-    CMD_HLT     = 0,
-    CMD_PUSH    = 1,
-    CMD_ADD     = 2,
-    CMD_SUB     = 3,
-    CMD_DIV     = 4,
-    CMD_OUT     = 5
-};
-
-
-enum CommandsId GetCommandId (const char* name);
-void ByteCodeBufferInit (AsmContext* buf, int max_size);
-void ByteCodeBufferFree (AsmContext* buf);
-int Assembly(const char* asm_source_name, AsmContext* buf, const char* byte_code_name);
 
 
 int main(int argc, char *argv[])
@@ -53,6 +30,7 @@ enum CommandsId GetCommandId (const char* name)
     if (strcmp(name, "SUB") == 0)  return CMD_SUB;
     if (strcmp(name, "DIV") == 0)  return CMD_DIV;
     if (strcmp(name, "OUT") == 0)  return CMD_OUT;
+    if (strcmp(name, "MUL") == 0)  return CMD_MUL;
     return CMD_UNKNOWN;
 }
 
@@ -124,6 +102,7 @@ int Assembly(const char* asm_source_name, AsmContext* buf, const char* byte_code
             case CMD_ADD:
             case CMD_SUB:
             case CMD_DIV:
+            case CMD_MUL:
             case CMD_OUT:
                 if (n_args == 1)
                 {

@@ -1,41 +1,10 @@
+#include "VirtualMachine.h"
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include "stack.h"
 
-struct SPU
-{
-    double AX;
-    double BX;
-    double CX;
-    double DX;
-    stack_t stk;
-    char* code;
-    int code_size;
-    int ip;
-};
-
-enum CommandsId
-{
-    CMD_UNKNOWN = -1,
-    CMD_HLT     = 0,
-    CMD_PUSH    = 1,
-    CMD_ADD     = 2,
-    CMD_SUB     = 3,
-    CMD_DIV     = 4,
-    CMD_OUT     = 5
-};
-
-
-void Add(stack_t* stk);
-void Sub(stack_t* stk);
-void Div(stack_t* stk);
-void Out(stack_t* stk);
-int ExecutionSPU (SPU* spu);
-int IsEnoughElements (stack_t* stk);
-int FileSize (const char* name);
-void SPU_Init (SPU* spu, const char* byte_code_name);
 
 int main()
 {
@@ -96,7 +65,20 @@ void Div(stack_t* stk)
     }
 
     StackPush(stk, val_2/val_1);
+}
 
+void Mul(stack_t* stk)
+{
+    double val_1 = 0;
+    double val_2 = 0;
+
+    if (IsEnoughElements(stk))
+    {
+        StackPop(stk, &val_1);
+        StackPop(stk, &val_2);
+    }
+
+    StackPush(stk, val_1*val_2);
 }
 
 void Out(stack_t* stk)
@@ -191,6 +173,11 @@ int ExecutionSPU (SPU* spu)
 
             case(CMD_OUT):
                 Out(&spu->stk);
+                StackDump("log_stack", 0, &spu->stk);
+                break;
+
+            case(CMD_MUL):
+                Mul(&spu->stk);
                 StackDump("log_stack", 0, &spu->stk);
                 break;
         }
